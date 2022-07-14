@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+
+block content 
+    hr
+    section#missionSection
+        h1 Our Mission
+        div.card 
+            h3 Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="../static/bg2.png")
+                div.card-content
+                    p we make you perfect in your all dances moves.
+        div.card 
+            h3 Better Dancer 
+            div.card-box 
+                div.card-img 
+                    img(src="../static/bg3.png")
+                div.card-content
+                    p we make you a better dancer among all dancers in world. 
+        div.card 
+            h3 Carrer  
+            div.card-box 
+                div.card-img 
+                    img(src="../static/bg4.png")
+                div.card-content
+                    p we make dance as your carrer

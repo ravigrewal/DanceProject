@@ -1,0 +1,33 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    hr
+    section#classesSection  
+        h1 Our Classes
+        div.class-box 
+            div.class-img 
+                img(src="../static/bg5.jpg")
+            div.class-content 
+                h1 Hip-Pop 
+        div.class-box 
+            div.class-img 
+                img(src="../static/bg6.png")
+            div.class-content 
+                h1 Kathak
+        div.class-box 
+            div.class-img 
+                img(src="../static/bg7.jpg")
+            div.class-content 
+                h1 Jumba
+        div.class-box 
+            div.class-img 
+                img(src="../static/bg8.png")
+            div.class-content 
+                h1 Ballet
